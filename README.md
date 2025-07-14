@@ -73,16 +73,16 @@ MCPDebugTest/
 ├── setup.bat                    # Windows setup script
 ├── requirements.txt             # Python dependencies
 ├── simple_mcp_server/           # Main MCP server code
-│   ├── server.py               # MCP server implementation
-│   ├── tools.py                # Tool definitions
-│   ├── handlers.py             # Tool handlers
-│   └── debug_utils.py          # Debugging utilities
+│   ├── server.py                # MCP server implementation
+│   ├── tools.py                 # Tool definitions
+│   ├── handlers.py              # Tool handlers
+│   └── debug_utils.py           # Debugging utilities
 ├── tests/                       # Test scripts
-│   └── test_server.py          # Server validation tests
+│   └── test_server.py           # Server validation tests
 ├── config/                      # Configuration files
-│   └── claude_desktop.json     # Claude Desktop config
+│   └── claude_desktop.json      # Claude Desktop config
 ├── .vscode/                     # VS Code configuration
-│   └── launch.json             # Debug configurations
+│   └── launch.json              # Debug configurations
 └── logs/                        # Debug logs (created on first run)
 ```
 
