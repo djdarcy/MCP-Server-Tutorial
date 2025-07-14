@@ -204,9 +204,70 @@ Once you understand this tutorial server:
 
 ## Learning Resources
 
+### Helpful Tutorial
+
+This project includes a complete step-by-step tutorial covering all aspects of MCP development:
+
+**📖 [Complete Tutorial Guide](docs/tutorial/README.md)**
+
+#### Tutorial Chapters:
+
+1. **[Understanding MCP Architecture](docs/tutorial/01_understanding_mcp_architecture.md)**
+   - MCP protocol fundamentals and client-server communication
+   - Core concepts: tools, resources, prompts, and protocol flow
+   - How MCP fits into the AI assistant ecosystem
+
+2. **[Protocol Flow](docs/tutorial/02_protocol_flow.md)**
+   - Message exchange patterns and protocol handshake
+   - Tool discovery and execution lifecycle
+   - Error handling and response formatting
+
+3. **[Tool Registration](docs/tutorial/03_tool_registration.md)**
+   - Defining tools with JSON Schema validation
+   - Best practices for tool naming and parameter design
+   - Advanced tool features and capabilities
+
+4. **[Error Handling](docs/tutorial/04_error_handling.md)**
+   - Different error handling strategies
+   - Debugging common failure scenarios
+   - Protocol-compliant error responses
+
+5. **[Debugging and Testing](docs/tutorial/05_debugging_testing.md)**
+   - VS Code debugging setup and breakpoint strategies
+   - Test suite development and automated validation
+   - Protocol-level debugging techniques
+
+6. **[Authentication and Security](docs/tutorial/06_authentication_security.md)**
+   - Security considerations for MCP servers
+   - Authentication patterns and access control
+   - Best practices for production deployment
+
+7. **[State Management](docs/tutorial/07_state_management.md)**
+   - Managing server state and session data
+   - Persistence strategies and data consistency
+   - Advanced state management patterns
+
+8. **[Claude Integration](docs/tutorial/08_claude_integration.md)**
+   - Claude Desktop configuration and setup
+   - Integration troubleshooting and optimization
+   - Cross-platform deployment considerations
+
+9. **[Production Deployment](docs/tutorial/09_production_deployment.md)**
+   - Production-ready server configuration
+   - Monitoring, logging, and maintenance
+   - Scaling and performance optimization
+
+### Additional Documentation
+
+- **[Debugging Guide](docs/debugging_guide.md)** - Various debugging strategies and troubleshooting
+- **[Project Creation Process](docs/project_creation.md)** - Complete development journey and decision rationale
+- **[Completion Report](docs/COMPLETION_REPORT.md)** - Project status and implementation details
+
+### External Resources
+
 - [MCP Specification](https://modelcontextprotocol.io/specification)
 - [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk)
-- [Claude Desktop Documentation](https://claude.ai/docs)
+- [Claude Desktop Documentation](https://modelcontextprotocol.io/quickstart/user)
 - [VS Code Python Debugging](https://code.visualstudio.com/docs/python/debugging)
 
 ## Contributing
@@ -215,7 +276,7 @@ This is a learning project. Feel free to:
 - Add more test tools
 - Enhance debugging capabilities
 - Improve documentation
-- Add more comprehensive tests
+- Add more extensive tests
 
 ---
 
