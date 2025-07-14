@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Model Context Protocol (MCP) is a communication protocol that enables AI assistants to interact with external tools and services. Understanding the architecture is fundamental to building effective MCP servers and debugging integration issues.
+The Model Context Protocol (MCP) is a communication protocol that enables AI assistants to interact with external tools and services. Understanding the architecture is a big step to building effective MCP servers and debugging integration issues.
 
 ## What is MCP?
 
