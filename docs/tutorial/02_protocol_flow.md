@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Model Context Protocol follows a specific flow of messages between client and server. Understanding this flow is crucial for debugging issues and implementing robust MCP servers.
+The Model Context Protocol follows a specific flow of messages between client and server. Understanding this flow is helpful for debugging issues and for implementing MCP servers.
 
 ## The Complete MCP Protocol Flow
 
