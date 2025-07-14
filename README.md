@@ -11,6 +11,8 @@ This tutorial project creates a minimal, well-documented MCP server designed to 
 - How to register servers with Claude Desktop
 - How to build your own MCP tools and servers
 
+**Requirements**: Python 3.10+ (MCP library requirement)
+
 ## Quick Start
 
 ### 1. Setup Environment
