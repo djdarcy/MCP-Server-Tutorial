@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mcp-server-tutorial",
+    name="mcp-tutorial-server",
     version="1.0.0",
     description="A comprehensive, hands-on tutorial for learning MCP (Model Context Protocol) server development with working examples and debugging tools",
     author="Dustin",
@@ -15,8 +15,6 @@ setup(
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
@@ -24,7 +22,7 @@ setup(
         "Topic :: Education",
         "Topic :: Documentation",
     ],
-    python_requires=">=3.8",
+    python_requires=">=3.10",
     keywords="mcp, model-context-protocol, tutorial, server, development, claude",
     url="https://github.com/djdarcy/MCP-Server-Tutorial",
 )
