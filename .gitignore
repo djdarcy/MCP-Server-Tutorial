@@ -139,3 +139,42 @@ credentials.json
 #######################
 
 # Add custom patterns below
+
+# MCP Server specific
+logs/
+*.log
+test_output.log
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# MCP Development files
+mcp_debug_*.log
+mcp_server_*.log
+mcp_protocol.jsonl
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~

@@ -1,8 +1,5 @@
-# Project dependencies
-# Add your dependencies here
+# Model Context Protocol (MCP) dependencies
+mcp>=1.0.0
 
-# Development dependencies
-pytest>=7.0.0
-black>=23.0.0
-flake8>=6.0.0
-mypy>=1.0.0
+# Additional dependencies for the simple MCP server
+asyncio-mqtt  # For async operations (if needed)

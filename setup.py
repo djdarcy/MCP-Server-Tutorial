@@ -1,23 +1,30 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="MCPDebugTest",
-    version="0.1.1",
-    description="A new project repository",
+    name="mcp-server-tutorial",
+    version="1.0.0",
+    description="A comprehensive, hands-on tutorial for learning MCP (Model Context Protocol) server development with working examples and debugging tools",
     author="Dustin",
     author_email="6962246+djdarcy@users.noreply.github.com",
     packages=find_packages(),
     install_requires=[
-        # Add your dependencies here
+        "mcp>=1.0.0",
     ],
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Topic :: Education",
+        "Topic :: Documentation",
     ],
-    python_requires=">=3.6",
+    python_requires=">=3.8",
+    keywords="mcp, model-context-protocol, tutorial, server, development, claude",
+    url="https://github.com/djdarcy/MCP-Server-Tutorial",
 )
