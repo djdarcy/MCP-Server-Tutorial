@@ -1,6 +1,6 @@
-# Contributing to MCPDebugTest
+# Contributing to MCP Server Tutorial
 
-Thank you for considering contributing to MCPDebugTest!
+Thank you for considering contributing to the MCP Server Tutorial!
 
 ## Code of Conduct
 
@@ -11,18 +11,18 @@ By participating in this project you agree to abide by its terms.
 
 ### Reporting Bugs
 
-This section guides you through submitting a bug report.
+This section guides you through submitting a bug report for the MCP Server Tutorial.
 
 ### Suggesting Enhancements
 
-This section guides you through submitting an enhancement suggestion.
+This section guides you through submitting an enhancement suggestion for the tutorial or example server.
 
 ### Pull Requests
 
 The process described here has several goals:
 
-1. Maintain the project's quality
-2. Fix problems that are important to users
+1. Maintain the project's educational quality
+2. Fix problems that are important to learners
 3. Enable a sustainable system for maintainers to review contributions
 
 Please follow these steps to have your contribution considered by the maintainers:

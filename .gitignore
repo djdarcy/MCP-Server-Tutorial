@@ -140,6 +140,14 @@ credentials.json
 
 # Add custom patterns below
 
+# MCP Server specific
+logs/
+*.log
+test_output.log
+mcp_debug_*.log
+mcp_server_*.log
+mcp_protocol.jsonl
+
 # RepoKit Private Content Protection (DO NOT REMOVE)
 **/private_*
 .env.private

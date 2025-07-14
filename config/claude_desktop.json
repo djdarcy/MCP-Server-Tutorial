@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "simple-mcp-debug": {
+      "command": "python",
+      "args": [
+        "c:\\code\\TodoAI\\MCPDebugTest\\simple_mcp_server\\server.py"
+      ],
+      "env": {
+        "PYTHONPATH": "c:\\code\\TodoAI\\MCPDebugTest\\simple_mcp_server",
+        "PYTHONUNBUFFERED": "1",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}

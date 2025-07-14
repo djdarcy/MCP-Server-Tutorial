@@ -1,45 +1,58 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
-            "type": "python",
+            "name": "Debug MCP Server",
+            "type": "debugpy",
             "request": "launch",
-            "program": "${file}",
+            "program": "${workspaceFolder}/simple_mcp_server/server.py",
             "console": "integratedTerminal",
-            "justMyCode": true
+            "cwd": "${workspaceFolder}/simple_mcp_server",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/simple_mcp_server",
+                "PYTHONUNBUFFERED": "1"
+            },
+            "args": [],
+            "stopOnEntry": false,
+            "justMyCode": false,
+            "subProcess": true,
+            "redirectOutput": true,
+            "purpose": ["debug-in-terminal"]
         },
         {
-            "name": "Python: Module",
-            "type": "python",
+            "name": "Debug MCP Server (Verbose)",
+            "type": "debugpy",
             "request": "launch",
-            "module": "MCPDebugTest",
+            "program": "${workspaceFolder}/simple_mcp_server/server.py",
             "console": "integratedTerminal",
-            "justMyCode": true
+            "cwd": "${workspaceFolder}/simple_mcp_server",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/simple_mcp_server",
+                "PYTHONUNBUFFERED": "1",
+                "MCP_DEBUG": "1",
+                "LOG_LEVEL": "DEBUG"
+            },
+            "args": [],
+            "stopOnEntry": false,
+            "justMyCode": false,
+            "subProcess": true,
+            "redirectOutput": true,
+            "purpose": ["debug-in-terminal"]
         },
         {
-            "name": "Python: Current File with Arguments",
-            "type": "python",
+            "name": "Test MCP Server Locally",
+            "type": "debugpy",
             "request": "launch",
-            "program": "${file}",
+            "program": "${workspaceFolder}/tests/test_server.py",
             "console": "integratedTerminal",
-            "args": [
-                // Add your arguments here
-                // Examples:
-                // "--input", "${workspaceFolder}/data/input.txt",
-                // "--output", "${workspaceFolder}/data/output.txt",
-                // Use VS Code's input picker to add arguments at runtime
-                "${command:pickArgs}"
-            ]
-        }
-    ],
-    "compounds": [
-        {
-            "name": "Server/Client",
-            "configurations": ["Python: Module", "Python: Current File"]
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}",
+                "PYTHONUNBUFFERED": "1"
+            },
+            "args": [],
+            "stopOnEntry": false,
+            "justMyCode": false
         }
     ]
 }
