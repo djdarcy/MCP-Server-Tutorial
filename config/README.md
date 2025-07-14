@@ -6,7 +6,7 @@ This folder contains configuration files for integrating the MCP Server Tutorial
 
 ### `claude_desktop.json`
 
-This is the **local development configuration** used by the project maintainer. It contains absolute paths specific to the development environment and should not be used directly by new users.
+This is the **local development configuration** used by the project. It contains absolute paths specific to the development environment.
 
 ### `claude_desktop.sample.json`
 
